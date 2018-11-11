@@ -13,7 +13,7 @@ Given User need to be on Facebook login page
 When User enters user "Ryan" first name 
 And User enters user "Jack" username
 Then User checks user "Ryan" first name is present
-But User mobile field should be blank
+Then User mobile field should be blank
 Then Close browser
 
 Scenario: Validate First Name field2

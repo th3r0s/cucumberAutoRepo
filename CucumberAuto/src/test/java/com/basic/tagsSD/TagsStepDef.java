@@ -48,7 +48,7 @@ public class TagsStepDef {
 		Thread.sleep(1000);
 	}
 	
-	@But("^User mobile field should be blank")
+	@Then("^User mobile field should be blank")
 	public void user_mobile_field_should_be_blank() throws InterruptedException{
 		String mobileActual = driver.findElement(By.xpath("//input[@id='u_0_q']")).getAttribute("value");
 		Assert.assertEquals("", mobileActual);
